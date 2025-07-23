@@ -90,7 +90,7 @@ class QuizInterface:
             self.true_button.config(state="normal")
             self.false_button.config(state="normal")
         else:
-            # Custom end message based on score
+        
             if self.quiz.score > 10:
                 end_text = f"The End\nScore: {self.quiz.score}\nYou're an American Connoisseur!"
             else:
